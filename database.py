@@ -1,12 +1,11 @@
 import psycopg2
 import logging
 
-# Configurare logging
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Configurare conexiune PostgreSQL
 DB_CONFIG = {
-    "dbname": "songstorage",
+    "dbname": "SongStorage",
     "user": "postgres",
     "password": "admin",
     "host": "localhost",
