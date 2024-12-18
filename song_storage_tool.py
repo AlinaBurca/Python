@@ -79,3 +79,16 @@ class SongStorage:
         except Exception as e:
             print(f"Error modifying the data: {e}")
 
+    def search_song(self, artist, song_format):
+        try:
+            query = "SELECT * FROM songs WHERE artist=%s AND file_name LIKE %s"
+            self.cursor.execute(query, (artist, f"%.{song_format}"))
+            result = self.cursor.fetchall()
+            if not result:
+                print("Song not found.")
+                return
+            for song in result:
+                print(song)
+        except Exception as e:
+            print(f"Error searching the song: {e}")
+

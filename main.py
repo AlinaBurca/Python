@@ -8,7 +8,7 @@ if __name__ == "__main__":
        print("2. Delete song")
        print("3. Modify song data")
        print("4. Create Savelist")
-       print("5. Search song")
+       print("5. Search song by artist and file_format")
        print("6. Play song")
        print("7. Exit")
 
@@ -36,6 +36,12 @@ if __name__ == "__main__":
              release_date = input("Release data (YYYY-MM-DD): ")
              tags = input("Tag list (comma separated): ").split(',')
              song_tool.modify_data(song_id, artist=artist, song_name=song_name, release_date=release_date, tags=tags)
+
+       elif choice == "5":
+           artist = input("Artist: ")
+           song_format = input("File format:")
+           song_tool.search_song(artist=artist, song_format=song_format)
+
 
        elif choice == "7":
            break
