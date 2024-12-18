@@ -1,0 +1,28 @@
+2024-12-18 12:52:37,177 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 12:52:48,720 - INFO - Deleted file './Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 12:52:48,724 - INFO - Deleted song with ID 4 from database.
+2024-12-18 12:59:54,784 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:01:16,090 - INFO - Added song 'All I Want For Christmas Is You' with ID 6.
+2024-12-18 13:01:49,206 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 13:02:11,455 - INFO - Playback stopped by user.
+2024-12-18 13:13:36,532 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:13:41,783 - INFO - Deleted file './Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 13:13:41,788 - INFO - Deleted song with ID 6 from database.
+2024-12-18 13:14:54,645 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:15:53,912 - INFO - Added song 'All I Want For Christmas Is You' with ID 7.
+2024-12-18 13:16:02,333 - INFO - Deleted file './Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 13:16:02,334 - INFO - Deleted song with ID 7 from database.
+2024-12-18 13:16:58,707 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:17:33,758 - INFO - Added song 'fsa' with ID 8.
+2024-12-18 13:17:38,858 - INFO - Deleted file './Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 13:17:38,862 - INFO - Deleted song with ID 8 from database.
+2024-12-18 13:18:12,774 - WARNING - Song ID 8 not found.
+2024-12-18 13:26:52,726 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:27:42,848 - INFO - Added song 'All I Want For Christmas Is You' with ID 9.
+2024-12-18 13:30:20,687 - INFO - Modified data for song ID 9 with changes: {'artist': 'Mariah Carey', 'song_name': 'All I Want For Christmas Is You', 'release_date': '2009-11-25', 'tags': ['pop', ' Christmas']}
+2024-12-18 13:31:55,485 - INFO - Found 1 song(s) for artist 'Mariah Carey' with format 'mp3'.
+2024-12-18 13:31:55,492 - INFO - Copied song 'Mariah Carey - All I Want For Christmas Is You.mp3' to 'C:\Users\Alina\Music\Savelist'.
+2024-12-18 13:31:55,634 - INFO - Archive created at 'C:\Users\Alina\Music\Savelist.zip'.
+2024-12-18 13:34:21,787 - INFO - Found 1 song(s) for artist 'Mariah Carey' with format 'mp3'.
+2024-12-18 13:35:12,677 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 13:35:24,929 - INFO - Playback stopped by user.

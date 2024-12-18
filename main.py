@@ -9,8 +9,8 @@ if __name__ == "__main__":
        print("1. Add song")
        print("2. Delete song")
        print("3. Modify song data")
-       print("4. Create Savelist")
-       print("5. Search song by artist and file_format")
+       print("4. Search song by artist and file_format")
+       print("5. Create Savelist")
        print("6. Play song")
        print("7. Exit")
 
@@ -40,16 +40,17 @@ if __name__ == "__main__":
              song_tool.modify_data(song_id, artist=artist, song_name=song_name, release_date=release_date, tags=tags)
 
        elif choice == "4":
+             artist = input("Artist: ")
+             song_format = input("File format:")
+             result=song_tool.search_song(artist, song_format)
+             print(result)
+
+       elif choice == "5":
               savelist_path = input("Savelist path: ")
               artist = input("Artist: ")
               file_format = input("File format: ")
               os.makedirs(os.path.dirname(savelist_path), exist_ok=True)
               song_tool.create_savelist(savelist_path, artist, file_format)
-
-       elif choice == "5":
-             artist = input("Artist: ")
-             song_format = input("File format:")
-             song_tool.search_song(artist, song_format)
 
 
        elif choice == "6":
