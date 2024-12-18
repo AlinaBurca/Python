@@ -1,4 +1,6 @@
 from song_storage_tool import SongStorage
+import os
+
 if __name__ == "__main__":
 
    song_tool = SongStorage()
@@ -37,12 +39,19 @@ if __name__ == "__main__":
              tags = input("Tag list (comma separated): ").split(',')
              song_tool.modify_data(song_id, artist=artist, song_name=song_name, release_date=release_date, tags=tags)
 
+       elif choice == "4":
+              savelist_path = input("Savelist path: ")
+              artist = input("Artist: ")
+              file_format = input("File format: ")
+              os.makedirs(os.path.dirname(savelist_path), exist_ok=True)
+              song_tool.create_savelist(savelist_path, artist, file_format)
+
        elif choice == "5":
-           artist = input("Artist: ")
-           song_format = input("File format:")
-           song_tool.search_song(artist=artist, song_format=song_format)
+             artist = input("Artist: ")
+             song_format = input("File format:")
+             song_tool.search_song(artist, song_format)
 
 
        elif choice == "7":
-           break
+             break
 

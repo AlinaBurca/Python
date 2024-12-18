@@ -1,5 +1,6 @@
 import os
 import shutil
+from zipfile import ZipFile
 
 import psycopg2
 
@@ -89,6 +90,30 @@ class SongStorage:
                 return
             for song in result:
                 print(song)
+            return result
         except Exception as e:
             print(f"Error searching the song: {e}")
+
+
+    def create_savelist(self, output_path, artist, song_format):
+        songs =self.search_song(artist, song_format)
+        if not songs:
+            print("No songs found.")
+            return
+        try:
+           for song in songs:
+               file_name=song[1]
+               song_path=os.path.join(STORAGE_DIR, file_name)
+               if os.path.exists(song_path):
+                   shutil.copy(song_path, output_path)
+                   print(f"Song {file_name} copied to {output_path}")
+               else:
+                    print(f"Error: File {file_name} not found.")
+           archive= shutil.make_archive(output_path, 'zip', output_path)
+           print(f"Archive created at {archive}")
+        except Exception as e:
+            print(f"Error creating the savelist: {e}")
+
+
+
 
