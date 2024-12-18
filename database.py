@@ -1,15 +1,18 @@
 import psycopg2
 import logging
-
+import os
+from  dotenv import load_dotenv
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+load_dotenv()
+
 DB_CONFIG = {
-    "dbname": "SongStorage",
-    "user": "postgres",
-    "password": "admin",
-    "host": "localhost",
-    "port": 5432
+    "dbname": os.getenv("DB_NAME"),
+    "user": os.getenv("DB_USER"),
+    "password": os.getenv("DB_PASSWORD"),
+    "host": os.getenv("DB_HOST"),
+    "port": os.getenv("DB_PORT"),
 }
 
 def connect_db():

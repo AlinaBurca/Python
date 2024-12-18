@@ -52,6 +52,10 @@ if __name__ == "__main__":
              song_tool.search_song(artist, song_format)
 
 
+       elif choice == "6":
+             song_id = input("Song ID: ")
+             song_tool.play_song(song_id)
+
        elif choice == "7":
              break
 

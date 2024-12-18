@@ -1,16 +1,19 @@
 import os
 import shutil
-from zipfile import ZipFile
-
+import pygame
 import psycopg2
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DB_CONFIG = {
-    'dbname': 'SongStorage',
-    'user': 'postgres',
-    'password': 'admin',
-    'host': 'localhost',
-    'port': 5432
+    "dbname": os.getenv("DB_NAME"),
+    "user": os.getenv("DB_USER"),
+    "password": os.getenv("DB_PASSWORD"),
+    "host": os.getenv("DB_HOST"),
+    "port": os.getenv("DB_PORT"),
 }
+
 
 STORAGE_DIR = "./Storage"
 
@@ -113,6 +116,40 @@ class SongStorage:
            print(f"Archive created at {archive}")
         except Exception as e:
             print(f"Error creating the savelist: {e}")
+
+    def play_song(self, song_id):
+        try:
+            self.cursor.execute("SELECT * FROM songs WHERE id=%s", (song_id,))
+            result = self.cursor.fetchone()
+            if not result:
+                print("Song ID not found.")
+                return
+
+            song = result[1]
+            song_path = os.path.abspath(os.path.join(STORAGE_DIR, song))
+
+            if os.path.exists(song_path):
+                print(f"Playing {song_path}.")
+                pygame.mixer.init()
+                pygame.mixer.music.load(song_path)
+                pygame.mixer.music.play()
+
+                while pygame.mixer.music.get_busy():
+                    user_input = input("Press 'q' to stop playback: ")
+                    if user_input.lower() == 'q':
+                        pygame.mixer.music.stop()
+                        print("Playback stopped.")
+                        break
+            else:
+                print("Error: File not found.")
+        except KeyboardInterrupt:
+            pygame.mixer.music.stop()
+            print("Playback stopped manually.")
+        except Exception as e:
+            print(f"Error playing the song: {e}")
+
+
+
 
 
 
