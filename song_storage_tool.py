@@ -67,6 +67,11 @@ class SongStorage:
 
     def modify_data(self, song_id, **args):
         try:
+            self.cursor.execute("SELECT file_name FROM songs WHERE id=%s", (song_id,))
+            result = self.cursor.fetchone()
+            if not result:
+                print("Song ID not found.")
+                return
             for key, value in args.items():
                 self.cursor.execute(f"UPDATE songs SET {key}=%s WHERE id=%s", (value, song_id))
             self.conn.commit()

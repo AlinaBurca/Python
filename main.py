@@ -28,6 +28,15 @@ if __name__ == "__main__":
        elif choice == "2":
               song_id = input("Song ID: ")
               song_tool.delete_song(song_id)
+
+       elif choice == "3":
+             song_id = input("Song ID: ")
+             artist = input("Artist: ")
+             song_name = input("Song name: ")
+             release_date = input("Release data (YYYY-MM-DD): ")
+             tags = input("Tag list (comma separated): ").split(',')
+             song_tool.modify_data(song_id, artist=artist, song_name=song_name, release_date=release_date, tags=tags)
+
        elif choice == "7":
            break
 
