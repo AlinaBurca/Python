@@ -1,7 +1,12 @@
 from song_storage_tool import SongStorage
-import os
 
 if __name__ == "__main__":
+
+   """Main function to run the SongStorage tool.
+    The function displays a menu to the user to interact with the SongStorage tool
+    and performs the corresponding actions based on the user's choice, including adding, 
+    deleting, modifying, searching, creating save lists, and playing songs.
+   """
 
    song_tool = SongStorage()
    while True:
@@ -49,7 +54,6 @@ if __name__ == "__main__":
               savelist_path = input("Savelist path: ")
               artist = input("Artist: ")
               file_format = input("File format: ")
-              os.makedirs(os.path.dirname(savelist_path), exist_ok=True)
               song_tool.create_savelist(savelist_path, artist, file_format)
 
 

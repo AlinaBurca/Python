@@ -26,3 +26,139 @@
 2024-12-18 13:34:21,787 - INFO - Found 1 song(s) for artist 'Mariah Carey' with format 'mp3'.
 2024-12-18 13:35:12,677 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
 2024-12-18 13:35:24,929 - INFO - Playback stopped by user.
+2024-12-18 13:39:34,387 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:39:41,336 - ERROR - Error deleting the song: not all arguments converted during string formatting
+2024-12-18 13:40:24,047 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:40:30,129 - ERROR - Error deleting the song: not all arguments converted during string formatting
+2024-12-18 13:41:39,107 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:41:44,915 - INFO - Deleted file './Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 13:41:44,919 - INFO - Deleted song with ID 9 from database.
+2024-12-18 13:42:07,432 - ERROR - Error deleting the song: not all arguments converted during string formatting
+2024-12-18 13:42:18,787 - WARNING - Song ID 3 not found in database.
+2024-12-18 13:45:36,552 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:46:05,068 - INFO - Added song 'klfas' with ID 10.
+2024-12-18 13:46:14,509 - ERROR - Error deleting the song: not all arguments converted during string formatting
+2024-12-18 13:48:23,701 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:48:27,869 - ERROR - Error deleting the song: 'int' object does not support indexing
+2024-12-18 13:50:37,896 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:50:44,002 - INFO - Attempting to delete song with ID: 10
+2024-12-18 13:50:44,006 - INFO - Deleted file: './Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 13:50:44,008 - INFO - Deleted song with ID 10 from database.
+2024-12-18 13:58:16,666 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:58:49,131 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 13:59:30,315 - INFO - Added song 'All I Want For Christmas Is You' with ID 11.
+2024-12-18 14:00:06,148 - INFO - Modified data for song ID 11 with changes: {'artist': 'Maria', 'song_name': 'Christmas', 'release_date': '2000-11-2', 'tags': ['pop']}
+2024-12-18 14:00:28,345 - INFO - Found 1 song(s) for artist 'Maria' with format 'mp3'.
+2024-12-18 14:01:31,249 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 14:04:49,954 - INFO - No songs found for artist 'Mari' with format 'mp3'.
+2024-12-18 14:04:49,954 - WARNING - No songs found for savelist creation.
+2024-12-18 14:05:15,632 - INFO - Found 1 song(s) for artist 'Maria' with format 'mp3'.
+2024-12-18 14:05:15,638 - INFO - Copied song 'Mariah Carey - All I Want For Christmas Is You.mp3' to 'C:\Users\Alina\Music\Savelist'.
+2024-12-18 14:05:15,782 - INFO - Archive created at 'C:\Users\Alina\Music\Savelist.zip'.
+2024-12-18 14:05:42,438 - INFO - Attempting to delete song with ID: 11
+2024-12-18 14:05:42,440 - INFO - Deleted file: './Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 14:05:42,444 - INFO - Deleted song with ID 11 from database.
+2024-12-18 14:07:42,303 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 14:08:39,120 - INFO - Added song 'All I Want For Christmas Is You' with ID 12.
+2024-12-18 14:09:46,219 - INFO - Modified data for song ID 12 with changes: {'artist': 'Mariah Carey', 'song_name': 'All I Want For Christmas Is You', 'release_date': '2009-11-25', 'tags': ['pop', ' Christmas']}
+2024-12-18 14:10:23,711 - INFO - Found 1 song(s) for artist 'Mariah Carey' with format 'mp3'.
+2024-12-18 14:11:00,371 - INFO - Found 1 song(s) for artist 'Mariah Carey' with format 'mp3'.
+2024-12-18 14:11:00,378 - INFO - Copied song 'Mariah Carey - All I Want For Christmas Is You.mp3' to 'C:\Users\Alina\Music\Savelist'.
+2024-12-18 14:11:00,518 - INFO - Archive created at 'C:\Users\Alina\Music\Savelist.zip'.
+2024-12-18 14:11:28,310 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 14:11:34,153 - INFO - Playback stopped by user.
+2024-12-18 14:11:40,870 - INFO - Attempting to delete song with ID: 12
+2024-12-18 14:11:40,872 - ERROR - Error deleting the song: [WinError 32] The process cannot access the file because it is being used by another process: './Storage\\Mariah Carey - All I Want For Christmas Is You.mp3'
+2024-12-18 14:12:00,525 - INFO - Attempting to delete song with ID: 12
+2024-12-18 14:12:00,526 - ERROR - Error deleting the song: [WinError 32] The process cannot access the file because it is being used by another process: './Storage\\Mariah Carey - All I Want For Christmas Is You.mp3'
+2024-12-18 14:13:45,876 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 14:13:55,597 - INFO - Attempting to delete song with ID: 12
+2024-12-18 14:13:55,601 - INFO - Deleted file: './Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 14:13:55,605 - INFO - Deleted song with ID 12 from database.
+2024-12-18 14:18:53,267 - INFO - Initialized SongStorage and ensured storage directory exists.
+2024-12-18 14:19:49,876 - INFO - Added song 'All I Want For Christmas Is You' with ID 13.
+2024-12-18 14:19:57,063 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 14:20:10,674 - INFO - Playback stopped by user.
+2024-12-18 14:20:10,717 - INFO - Pygame resources released.
+2024-12-18 14:20:14,833 - INFO - Attempting to delete song with ID: 13
+2024-12-18 14:20:14,835 - INFO - Deleted file: './Storage\Mariah Carey - All I Want For Christmas Is You.mp3'.
+2024-12-18 14:20:14,836 - INFO - Deleted song with ID 13 from database.
+2025-01-07 19:51:18,424 - INFO - Initialized SongStorage and ensured storage directory exists.
+2025-01-07 19:52:26,226 - INFO - Attempting to delete song with ID: 2
+2025-01-07 19:52:26,233 - WARNING - Song ID 2 not found in database.
+2025-01-07 19:53:17,912 - ERROR - Invalid song ID provided: s. It must be an integer.
+2025-01-07 19:55:40,216 - INFO - Added song 'Can't help falling in love' with ID 14.
+2025-01-07 19:55:55,041 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\elvis-presley-cant-help-falling-in-love-audio.mp3'.
+2025-01-07 19:56:20,436 - INFO - Playback stopped by user.
+2025-01-07 19:56:20,466 - INFO - Pygame resources released.
+2025-01-07 19:56:30,400 - INFO - Attempting to delete song with ID: 14
+2025-01-07 19:56:30,402 - INFO - Deleted file: './Storage\elvis-presley-cant-help-falling-in-love-audio.mp3'.
+2025-01-07 19:56:30,407 - INFO - Deleted song with ID 14 from database.
+2025-01-07 19:57:07,664 - WARNING - Song ID 2 not found.
+2025-01-07 19:57:07,664 - INFO - Pygame resources released.
+2025-01-07 19:58:04,252 - INFO - Added song 'Don't stop me now' with ID 15.
+2025-01-07 19:58:21,058 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\Queen-DontStopMeNow.mp3'.
+2025-01-07 19:58:42,513 - INFO - Playback stopped by user.
+2025-01-07 19:58:42,544 - INFO - Pygame resources released.
+2025-01-07 20:00:21,749 - INFO - Modified data for song ID 15 with changes: {'artist': 'Queen', 'song_name': "Don't stop me now", 'release_date': '12-12-1978', 'tags': ['pop rock']}
+2025-01-07 20:00:55,821 - INFO - No songs found for artist 'Queen' with format 'md'.
+2025-01-07 20:01:26,537 - INFO - Found 1 song(s) for artist 'Queen' with format 'mp3'.
+2025-01-07 20:02:29,968 - INFO - No songs found for artist 'C:\Users\Alina\Music\Savelistdsf' with format 'j;dsf'.
+2025-01-07 20:02:29,968 - WARNING - No songs found for savelist creation.
+2025-01-07 20:03:42,680 - INFO - No songs found for artist 'C:\Users\Alina\Music\SavelistQueen' with format 'mp3'.
+2025-01-07 20:03:42,680 - WARNING - No songs found for savelist creation.
+2025-01-07 20:04:51,830 - ERROR - Error playing the song: invalid input syntax for type integer: "d"
+LINE 1: SELECT * FROM songs WHERE id='d'
+                                     ^
+
+2025-01-07 20:04:51,831 - INFO - Pygame resources released.
+2025-01-07 20:05:05,404 - ERROR - Error searching the song: current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:05:05,404 - WARNING - No songs found for savelist creation.
+2025-01-07 20:06:51,807 - ERROR - Error searching the song: current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 20:06:51,807 - WARNING - No songs found for savelist creation.
+2025-01-07 20:08:36,964 - ERROR - Error adding the song: current transaction is aborted, commands ignored until end of transaction block
+
+2025-01-07 21:28:28,632 - INFO - Initialized SongStorage and ensured storage directory exists.
+2025-01-07 21:29:36,166 - INFO - Added song 'Telepatia' with ID 16.
+2025-01-07 21:29:50,174 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\kali-uchis-telepatia-official-audio.mp3'.
+2025-01-07 21:30:34,961 - INFO - Playback stopped by user.
+2025-01-07 21:30:34,993 - INFO - Pygame resources released.
+2025-01-07 21:30:39,555 - WARNING - Song ID 3 not found.
+2025-01-07 21:30:39,555 - INFO - Pygame resources released.
+2025-01-07 21:30:49,954 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\kali-uchis-telepatia-official-audio.mp3'.
+2025-01-07 21:44:53,820 - INFO - Playback stopped by user.
+2025-01-07 21:44:53,861 - INFO - Pygame resources released.
+2025-01-07 21:48:31,501 - INFO - Found 1 song(s) for artist 'Queen' with format 'mp3'.
+2025-01-07 21:48:31,516 - INFO - Copied song 'Queen-DontStopMeNow.mp3' to 'C:\Users\Alina\Music\Savelist'.
+2025-01-07 21:48:31,615 - INFO - Archive created at 'C:\Users\Alina\Music\Savelist.zip'.
+2025-01-07 21:49:01,218 - INFO - Found 1 song(s) for artist 'Queen' with format 'mp3'.
+2025-01-07 21:49:01,222 - INFO - Copied song 'Queen-DontStopMeNow.mp3' to 'C:\Users\Alina\Music\Savelist'.
+2025-01-07 21:49:01,223 - ERROR - Error creating the savelist: [Errno 20] Not a directory: 'C:\\Users\\Alina\\Music\\Savelist'
+2025-01-07 21:54:38,742 - INFO - Initialized SongStorage and ensured storage directory exists.
+2025-01-07 22:01:47,347 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\kali-uchis-telepatia-official-audio.mp3'.
+2025-01-07 22:07:32,936 - INFO - Playback stopped by user.
+2025-01-07 22:07:32,964 - INFO - Pygame resources released.
+2025-01-07 22:07:39,025 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\Queen-DontStopMeNow.mp3'.
+2025-01-07 22:15:48,659 - INFO - Playback stopped by user.
+2025-01-07 22:15:48,692 - INFO - Pygame resources released.
+2025-01-07 22:20:25,133 - ERROR - Error: File does not exist.
+2025-01-07 22:21:43,583 - INFO - Added song 'Blinding Lights' with ID 17.
+2025-01-07 22:21:50,010 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\The Weeknd - Blinding Lights (Official Audio).mp3'.
+2025-01-07 22:24:47,292 - INFO - Playback stopped by user.
+2025-01-07 22:24:47,322 - INFO - Pygame resources released.
+2025-01-07 22:26:14,397 - INFO - Found 1 song(s) for artist 'The Weeknd' with format 'mp3'.
+2025-01-07 22:26:14,403 - INFO - Copied song 'The Weeknd - Blinding Lights (Official Audio).mp3' to 'C:\Users\Alina\Music\Savelist'.
+2025-01-07 22:26:14,548 - INFO - Archive created at 'C:\Users\Alina\Music\Savelist.zip'.
+2025-01-07 22:27:07,067 - INFO - Attempting to delete song with ID: 17
+2025-01-07 22:27:07,072 - INFO - Deleted file: './Storage\The Weeknd - Blinding Lights (Official Audio).mp3'.
+2025-01-07 22:27:07,075 - INFO - Deleted song with ID 17 from database.
+2025-01-07 22:28:09,261 - INFO - Modified data for song ID 16 with changes: {'artist': 'Kali Uchis', 'song_name': 'Telepatia', 'release_date': '2020-11-12', 'tags': ['pop latino', ' r&b']}
+2025-01-07 22:28:38,131 - INFO - Found 1 song(s) for artist 'Kali Uchis' with format 'mp3'.
+2025-01-07 22:34:06,347 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\kali-uchis-telepatia-official-audio.mp3'.
+2025-01-07 22:34:08,758 - INFO - Playback stopped by user.
+2025-01-07 22:34:08,787 - INFO - Pygame resources released.
+2025-01-07 22:34:11,658 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\Queen-DontStopMeNow.mp3'.
+2025-01-07 22:35:03,589 - INFO - Playback stopped by user.
+2025-01-07 22:35:03,627 - INFO - Pygame resources released.
