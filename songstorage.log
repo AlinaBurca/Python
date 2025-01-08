@@ -162,3 +162,31 @@ LINE 1: SELECT * FROM songs WHERE id='d'
 2025-01-07 22:34:11,658 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\Queen-DontStopMeNow.mp3'.
 2025-01-07 22:35:03,589 - INFO - Playback stopped by user.
 2025-01-07 22:35:03,627 - INFO - Pygame resources released.
+2025-01-08 12:13:28,373 - INFO - Initialized SongStorage and ensured storage directory exists.
+2025-01-08 12:15:18,370 - INFO - Added song 'Can't help falling in love' with ID 18.
+2025-01-08 12:16:41,346 - INFO - Modified data for song ID 18 with changes: {'artist': 'Elvis Presley', 'song_name': "Can't help falling in love", 'release_date': '1961-10-1', 'tags': ['pop']}
+2025-01-08 12:17:23,956 - INFO - Found 1 song(s) for artist 'Kali Uchis' with format 'mp3'.
+2025-01-08 12:17:56,148 - INFO - Found 1 song(s) for artist 'Kali Uchis' with format 'mp3'.
+2025-01-08 12:17:56,204 - INFO - Copied song 'kali-uchis-telepatia-official-audio.mp3' to 'C:\Users\Alina\Music\Savelist'.
+2025-01-08 12:17:56,205 - ERROR - Error creating the savelist: [Errno 20] Not a directory: 'C:\\Users\\Alina\\Music\\Savelist'
+2025-01-08 12:18:35,047 - INFO - Found 1 song(s) for artist 'Kali Uchis' with format 'mp3'.
+2025-01-08 12:18:35,052 - INFO - Copied song 'kali-uchis-telepatia-official-audio.mp3' to 'C:\Users\Alina\Music\Savelist'.
+2025-01-08 12:18:35,311 - INFO - Archive created at 'C:\Users\Alina\Music\Savelist.zip'.
+2025-01-08 12:18:47,636 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\elvis-presley-cant-help-falling-in-love-audio.mp3'.
+2025-01-08 12:25:02,944 - INFO - Playback stopped by user.
+2025-01-08 12:25:03,052 - INFO - Pygame resources released.
+2025-01-08 12:25:16,995 - INFO - Attempting to delete song with ID: 18
+2025-01-08 12:25:16,997 - INFO - Deleted file: './Storage\elvis-presley-cant-help-falling-in-love-audio.mp3'.
+2025-01-08 12:25:16,998 - INFO - Deleted song with ID 18 from database.
+2025-01-08 12:36:00,522 - INFO - Initialized SongStorage and ensured storage directory exists.
+2025-01-08 12:39:02,140 - ERROR - Error adding the song: invalid input syntax for type date: ""
+LINE 3: ...         VALUES ('Bohemiam_Rhapsody.mp3', '', '', '', ARRAY[...
+                                                             ^
+
+2025-01-08 12:40:15,661 - INFO - Added song 'Bohemiam Rhapsody' with ID 19.
+2025-01-08 12:40:33,238 - INFO - Playing song 'D:\UNI\Python\SongStorage--Python-Project\Storage\Bohemiam_Rhapsody.mp3'.
+2025-01-08 12:40:42,528 - INFO - Playback stopped by user.
+2025-01-08 12:40:42,588 - INFO - Pygame resources released.
+2025-01-08 12:40:52,891 - INFO - Found 2 song(s) for artist 'Queen' with format 'mp3'.
+2025-01-08 12:47:35,294 - INFO - Initialized SongStorage and ensured storage directory exists.
+2025-01-08 12:47:43,193 - INFO - Found 2 song(s) for artist 'Queen' with format 'mp3'.

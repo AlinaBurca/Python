@@ -48,7 +48,19 @@ if __name__ == "__main__":
              artist = input("Artist: ")
              song_format = input("File format:")
              result=song_tool.search_song(artist, song_format)
-             print(result)
+             if not result:
+                 print("No songs found.")
+             else:
+                 print("Songs found: \n")
+                 for song in result:
+                     file_name=song[1]
+                     artist=song[2]
+                     song_name=song[3]
+                     release_date=song[4]
+                     tags=", ".join(song[5])
+
+                     print(f"File name: {file_name}\nArtist: {artist}\nSong name: {song_name}\nRelease date: {release_date}\nTags: {tags}\n")
+
 
        elif choice == "5":
               savelist_path = input("Savelist path: ")
